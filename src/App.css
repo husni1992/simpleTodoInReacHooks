@@ -1,5 +1,7 @@
 .App {
     /* text-align: center; */
+    padding: 10px;
+    margin: 10px;
 }
 
 .App-logo {
@@ -26,12 +28,4 @@
     to {
         transform: rotate(360deg);
     }
-}
-
-.centered-and-bordered {
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #61dafb;
-    border-radius: 5px;
 }

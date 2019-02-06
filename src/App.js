@@ -10,11 +10,8 @@ export default () => {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
             </header>
-            <h3>React Hooks</h3>
-            <section style={{ display: 'flex' }}>
-                <Counter />
-                <Todo />
-            </section>
+            <h3>Simple todo using React Hooks</h3>
+            <Todo />
         </div>
     );
 };
