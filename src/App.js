@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/counter/counter.component';
+import Todo from './components/todo/todo.component';
 
 export default () => {
     return (
@@ -12,6 +13,7 @@ export default () => {
             <h3>React Hooks</h3>
             <section style={{ display: 'flex' }}>
                 <Counter />
+                <Todo />
             </section>
         </div>
     );
